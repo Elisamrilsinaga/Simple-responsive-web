@@ -1,0 +1,43 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxfoto {
+    width: 100%;
+    height: 392px;
+}
+
+.button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5D5FEF;
+    color: white;
+    width: 298px;
+    height: 38px;
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: #5D5FEF;
+    border: 1px solid #5D5FEF;
+    width: 126px;
+    height: 38px;
+}
+
+.kanan {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
