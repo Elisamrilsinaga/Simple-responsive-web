@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles_profile.css">
@@ -9,6 +10,10 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -23,12 +28,12 @@
     </nav>
 
     <div class="container pt-5">
-        <p>Home / Job / <strong>Detail</strong></p>
+        <p class="directory">Home / Job / <strong>Detail</strong></p>
         <div class="row">
-            <div class="col-4">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                 <img class="boxfoto" src="img/S__13033483 1.png">
             </div>
-            <div class="col-8">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
                 <h1><b>Job Name</b></h1>
                 <p>
                     It is a long established fact that a reader will be distracted by the
@@ -74,11 +79,12 @@
                     </tbody>
                 </table>
 
-                <div class="row kanan pt-5">
-                    <button type="button" class="btn btn-lg button1 mr-2"><b>TAKE THE JOB</b></button>
+                <div class="row posisi pt-5">
+                    <button type="button" class="btn btn-lg button1"><b>TAKE THE JOB</b></button>
                     <button type="button" class="btn btn-lg button2"><b>OFFER JOB</b></button>
                 </div>
             </div>
         </div>
     </div>
+    <script src="js/bootstrap.min.js"></script>
 </body>
