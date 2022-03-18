@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "Poppins";
 }
+
 .pisah {
   display: flex;
 }
@@ -20,4 +21,29 @@
 }
 .container-filter {
   float: right;
+}
+.card-job {
+  height: 20rem;
+}
+.card-image {
+  width: 100%;
+}
+.inner {
+  overflow: hidden;
+}
+.ellipsis {
+  position: absolute;
+  left: 0.5rem;
+  width: 14rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.home {
+  display: flex !important;
+  justify-content: space-around !important;
+  padding-left: 7rem !important;
+}
+.container-joblist {
+  background: red;
 }
