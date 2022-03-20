@@ -39,11 +39,6 @@
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.home {
-  display: flex !important;
-  justify-content: space-around !important;
-  padding-left: 6% !important;
-}
 .container-joblist {
   width: 75%;
 }
