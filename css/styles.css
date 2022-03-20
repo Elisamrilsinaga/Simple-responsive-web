@@ -47,8 +47,3 @@
     height: 22rem;
   }
 }
-@media only screen and (max-width: 767px) {
-  .card-job {
-    height: 25rem;
-  }
-}

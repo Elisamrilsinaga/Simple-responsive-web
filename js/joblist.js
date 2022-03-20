@@ -105,7 +105,7 @@ function dataJob(){
                 <div class="card-title title-card">${nama}</div>\
                 <div class="card-text ellipsis m-2">${deskripsi}</div>\
             </div>\
-                <a href="#" class="btn btn-primary button rounded-0">${harga}</a>\
+                <a href="./detail.html" class="btn btn-primary button rounded-0">${harga}</a>\
             </div>\
         </div>`;
 
