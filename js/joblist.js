@@ -1,83 +1,83 @@
 job = [
     {
-        gambar: './assets/petani.jpg',
+        gambar: './img/petani.jpg',
         nama: 'Petani',
         deskripsi: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident minima libero soluta optio? Quisquam minus cupiditate illo distinctio nesciunt aspernatur.',
         harga: '$ 300 / Month'
 
     },
     {
-        gambar: './assets/guru.jpg',
+        gambar: './img/guru.jpg',
         nama: 'Guru',
         deskripsi: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident minima libero soluta optio? Quisquam minus cupiditate illo distinctio nesciunt aspernatur.',
         harga: '$ 800 / Month'
 
     },
     {
-        gambar: './assets/supir.jpg',
+        gambar: './img/supir.jpg',
         nama: 'Supir',
         deskripsi: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident minima libero soluta optio? Quisquam minus cupiditate illo distinctio nesciunt aspernatur.',
         harga: '$ 100 / Month'
 
     },
     {
-        gambar: './assets/gitaris.jpg',
+        gambar: './img/gitaris.jpg',
         nama: 'Gitaris',
         deskripsi: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident minima libero soluta optio? Quisquam minus cupiditate illo distinctio nesciunt aspernatur.',
         harga: '$ 800 / Month'
 
     },
     {
-        gambar: './assets/pelukis.jpg',
+        gambar: './img/pelukis.jpg',
         nama: 'Pelukis',
         deskripsi: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident minima libero soluta optio? Quisquam minus cupiditate illo distinctio nesciunt aspernatur.',
         harga: '$ 900 / Month'
 
     },
     {
-        gambar: './assets/pilot.jpg',
+        gambar: './img/pilot.jpg',
         nama: 'Pilot',
         deskripsi: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident minima libero soluta optio? Quisquam minus cupiditate illo distinctio nesciunt aspernatur.',
         harga: '$ 1.000 / Month'
 
     },
     {
-        gambar: './assets/penjahit.jpg',
+        gambar: './img/penjahit.jpg',
         nama: 'Penjahit',
         deskripsi: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident minima libero soluta optio? Quisquam minus cupiditate illo distinctio nesciunt aspernatur.',
         harga: '$ 200 / Month'
 
     },
     {
-        gambar: './assets/penjahat.jpg',
+        gambar: './img/penjahat.jpg',
         nama: 'Penjahat',
         deskripsi: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident minima libero soluta optio? Quisquam minus cupiditate illo distinctio nesciunt aspernatur.',
         harga: '$ 10.000 / Month'
 
     },
     {
-        gambar: './assets/drummer.jpg',
+        gambar: './img/drummer.jpg',
         nama: 'Drummer',
         deskripsi: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident minima libero soluta optio? Quisquam minus cupiditate illo distinctio nesciunt aspernatur.',
         harga: '$ 800 / Month'
 
     },
     {
-        gambar: './assets/dokter.jpg',
+        gambar: './img/dokter.jpg',
         nama: 'Dokter',
         deskripsi: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident minima libero soluta optio? Quisquam minus cupiditate illo distinctio nesciunt aspernatur.',
         harga: '$ 1.000 / Month'
 
     },
     {
-        gambar: './assets/arsitek.jpg',
+        gambar: './img/arsitek.jpg',
         nama: 'Arsitek',
         deskripsi: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident minima libero soluta optio? Quisquam minus cupiditate illo distinctio nesciunt aspernatur.',
         harga: '$ 20.000 / Month'
 
     },
     {
-        gambar: './assets/video editor.jpg',
+        gambar: './img/video editor.jpg',
         nama: 'Video Eitor',
         deskripsi: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident minima libero soluta optio? Quisquam minus cupiditate illo distinctio nesciunt aspernatur.',
         harga: '$ 200 / Month'
@@ -96,7 +96,7 @@ function dataJob(){
         harga = job[i].harga;
 
         result = result +
-        `<div class="col-lg-4 container-cardya mb-4">\
+        `<div class="col-lg-4 col-md-6 container-cardya mb-4">\
             <div class="card rounded-0 card-job">\
                 <div class="inner card-image">
                     <img src="${gambar}" alt="" width="100%">\   
@@ -105,7 +105,7 @@ function dataJob(){
                 <div class="card-title title-card">${nama}</div>\
                 <div class="card-text ellipsis m-2">${deskripsi}</div>\
             </div>\
-                <a href="#" class="btn btn-primary button rounded-0">${harga}</a>\
+                <a href="./detail.html" class="btn btn-primary button rounded-0">${harga}</a>\
             </div>\
         </div>`;
 
