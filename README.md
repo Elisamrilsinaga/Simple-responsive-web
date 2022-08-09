@@ -1,4 +1,4 @@
-# ChallangeFigma
+# A Simple Responsive Web Page
 
 
 
